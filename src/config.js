@@ -1,6 +1,6 @@
 const config = 
 {
-    url: 'http://localhost:2032'
+    url: 'https://backendapp-dyzt.onrender.com'
 };
 
 export default config;
