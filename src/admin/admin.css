@@ -1,0 +1,142 @@
+form {
+  margin: auto;
+  width: 300px;
+  text-align: center; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center; 
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+input[type='file'],
+select,
+input[type='date'],
+textarea {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type='submit']:hover {
+  background-color: #555;
+}
+
+.profile-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+border: 1px solid ;
+}
+
+.profile-card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: 10px auto;
+text-align: center;
+font-family: arial;
+border: 3px solid black;
+padding: 10px; 
+}
+
+.logoutButton {
+background-color: #f44336;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+
+.logoutButton:hover {
+background-color: #d32f2f; 
+}
+
+.logoutButton:focus {
+outline: none;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* admin.css */
+
+.form-container {
+  width: 300px; /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 8px; /* Add spacing between label and select */
+}
+
+.form-container select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px; /* Add spacing between select elements */
+}
