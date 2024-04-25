@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h3 align="center">Online Job Portal</h3>
+      <h3 align="center">Online Job Portal Project</h3>
       <Router>
         {isAdminLoggedIn ? (
           <AdminNavBar />
